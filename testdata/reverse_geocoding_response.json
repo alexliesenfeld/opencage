@@ -1,0 +1,160 @@
+{
+  "documentation": "https://opencagedata.com/api",
+  "licenses": [
+    {
+      "name": "see attribution guide",
+      "url": "https://opencagedata.com/credits"
+    }
+  ],
+  "rate": {
+    "limit": 2500,
+    "remaining": 2496,
+    "reset": 1704067200
+  },
+  "results": [
+    {
+      "annotations": {
+        "DMS": {
+          "lat": "52° 23' 16.01880'' N",
+          "lng": "9° 44' 0.38184'' E"
+        },
+        "MGRS": "32UND4991404423",
+        "Maidenhead": "JO42uj83ab",
+        "Mercator": {
+          "x": 1083521.518,
+          "y": 6836676.75
+        },
+        "NUTS": {
+          "NUTS0": {
+            "code": "DE"
+          },
+          "NUTS1": {
+            "code": "DE9"
+          },
+          "NUTS2": {
+            "code": "DE92"
+          },
+          "NUTS3": {
+            "code": "DE929"
+          }
+        },
+        "OSM": {
+          "edit_url": "https://www.openstreetmap.org/edit?node=9041448608#map=17/52.38778/9.73344",
+          "note_url": "https://www.openstreetmap.org/note/new#map=17/52.38778/9.73344&layers=N",
+          "url": "https://www.openstreetmap.org/?mlat=52.38778&mlon=9.73344#map=17/52.38778/9.73344"
+        },
+        "UN_M49": {
+          "regions": {
+            "DE": "276",
+            "EUROPE": "150",
+            "WESTERN_EUROPE": "155",
+            "WORLD": "001"
+          },
+          "statistical_groupings": [
+            "MEDC"
+          ]
+        },
+        "callingcode": 49,
+        "currency": {
+          "alternate_symbols": [],
+          "decimal_mark": ",",
+          "html_entity": "€",
+          "iso_code": "EUR",
+          "iso_numeric": "978",
+          "name": "Euro",
+          "smallest_denomination": 1,
+          "subunit": "Cent",
+          "subunit_to_unit": 100,
+          "symbol": "€",
+          "symbol_first": 0,
+          "thousands_separator": "."
+        },
+        "flag": "🇩🇪",
+        "geohash": "u1qfj2zsvwd6ntczum3r",
+        "qibla": 131.65,
+        "roadinfo": {
+          "drive_on": "right",
+          "road": "Philipsbornstraße",
+          "speed_in": "km/h"
+        },
+        "sun": {
+          "rise": {
+            "apparent": 1704007920,
+            "astronomical": 1704000360,
+            "civil": 1704005460,
+            "nautical": 1704002820
+          },
+          "set": {
+            "apparent": 1704035760,
+            "astronomical": 1704043320,
+            "civil": 1704038220,
+            "nautical": 1704040860
+          }
+        },
+        "timezone": {
+          "name": "Europe/Berlin",
+          "now_in_dst": 0,
+          "offset_sec": 3600,
+          "offset_string": "+0100",
+          "short_name": "CET"
+        },
+        "what3words": {
+          "words": "monopoly.tables.cats"
+        }
+      },
+      "bounds": {
+        "northeast": {
+          "lat": 52.387833,
+          "lng": 9.7334894
+        },
+        "southwest": {
+          "lat": 52.387733,
+          "lng": 9.7333894
+        }
+      },
+      "components": {
+        "ISO_3166-1_alpha-2": "DE",
+        "ISO_3166-1_alpha-3": "DEU",
+        "ISO_3166-2": [
+          "DE-NI"
+        ],
+        "_category": "building",
+        "_type": "building",
+        "city": "Hanover",
+        "city_district": "Vahrenwald-List",
+        "continent": "Europe",
+        "country": "Germany",
+        "country_code": "de",
+        "county": "Region Hannover",
+        "house_number": "2",
+        "office": "Design Offices",
+        "political_union": "European Union",
+        "postcode": "30165",
+        "road": "Philipsbornstraße",
+        "state": "Lower Saxony",
+        "state_code": "NI",
+        "suburb": "Vahrenwald"
+      },
+      "confidence": 10,
+      "formatted": "Design Offices, Philipsbornstraße 2, 30165 Hanover, Germany",
+      "geometry": {
+        "lat": 52.387783,
+        "lng": 9.7334394
+      }
+    }
+  ],
+  "status": {
+    "code": 200,
+    "message": "OK"
+  },
+  "stay_informed": {
+    "blog": "https://blog.opencagedata.com",
+    "mastodon": "https://en.osm.town/@opencage"
+  },
+  "thanks": "For using an OpenCage API",
+  "timestamp": {
+    "created_http": "Sun, 31 Dec 2023 23:59:23 GMT",
+    "created_unix": 1704067163
+  },
+  "total_results": 1
+}
