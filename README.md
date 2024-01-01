@@ -7,12 +7,11 @@ An API client implementation for the OpenCage Geocoder API.
 </p>
 <div align="center">
 
-[![Build](https://github.com/alexliesenfeld/opencage/actions/workflows/build.yml/badge.svg)](https://github.com/alexliesenfeld/health/actions/workflows/build.yml)
+[![Build](https://github.com/alexliesenfeld/opencage/actions/workflows/go.yml/badge.svg)](https://github.com/alexliesenfeld/health/actions/workflows/go.yml)
 [![codecov](https://codecov.io/gh/alexliesenfeld/opencage/branch/main/graph/badge.svg?token=V2mVh8RvYE)](https://codecov.io/gh/alexliesenfeld/health)
 [![Go Report Card](https://goreportcard.com/badge/github.com/alexliesenfeld/opencage)](https://goreportcard.com/report/github.com/alexliesenfeld/health)
 [![GolangCI](https://golangci.com/badges/github.com/alexliesenfeld/opencage.svg)](https://golangci.com/r/github.com/alexliesenfeld/health)
-[![FOSSA Status](https://app.fossa.com/api/projects/custom%2B26405%2Fgithub.com%2Falexliesenfeld%2Fopencage.svg?type=shield)](https://app.fossa.com/projects/custom%2B26405%2Fgithub.com%2Falexliesenfeld%2Fopencage?ref=badge_shield)
-
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Falexliesenfeld%2Fopencage.svg?type=small)](https://app.fossa.com/projects/git%2Bgithub.com%2Falexliesenfeld%2Fopencage?ref=badge_small)
 </div>
 
 <p align="center">
@@ -75,4 +74,4 @@ This library is free software: you can redistribute it and/or modify it under th
 This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied
 warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the MIT Public License for more details.
 
-[![FOSSA Status](https://app.fossa.com/api/projects/custom%2B26405%2Fgithub.com%2Falexliesenfeld%2Fopencage.svg?type=large)](https://app.fossa.com/projects/custom%2B26405%2Fgithub.com%2Falexliesenfeld%2Fopencage?ref=badge_large)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Falexliesenfeld%2Fopencage.svg?type=large&issueType=license)]
