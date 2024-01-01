@@ -7,9 +7,9 @@ type Response struct {
 		Url  string `json:"url"`
 	} `json:"licenses"`
 	Rate struct {
-		Limit     int `json:"limit"`
-		Remaining int `json:"remaining"`
-		Reset     int `json:"reset"`
+		Limit     int   `json:"limit"`
+		Remaining int   `json:"remaining"`
+		Reset     int64 `json:"reset"`
 	} `json:"rate"`
 	Results []struct {
 		Annotations struct {
