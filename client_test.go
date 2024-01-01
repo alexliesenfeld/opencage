@@ -4,9 +4,9 @@ import (
 	"context"
 	"errors"
 	"fmt"
+	"io/ioutil"
 	"net/http"
 	"net/http/httptest"
-	"os"
 	"path/filepath"
 	"testing"
 	"time"
@@ -26,7 +26,7 @@ func TestClientForwardGeocodingRoundTrip(t *testing.T) {
 			t.Fatalf("language should be de")
 		}
 
-		body, err := os.ReadFile(filepath.Join("testdata", "reverse_geocoding_response.json"))
+		body, err := ioutil.ReadFile(filepath.Join("testdata", "reverse_geocoding_response.json"))
 		if err != nil {
 			t.Fatal("error reading source file:", err)
 		}
@@ -58,7 +58,7 @@ func TestClientForwardGeocodingRoundTrip(t *testing.T) {
 
 func TestClientBackwardGeocodingRoundTrip(t *testing.T) {
 	server := httptest.NewServer(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
-		body, err := os.ReadFile(filepath.Join("testdata", "forward_geocoding_response.json"))
+		body, err := ioutil.ReadFile(filepath.Join("testdata", "forward_geocoding_response.json"))
 		if err != nil {
 			t.Fatal("error reading source file:", err)
 		}
