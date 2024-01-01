@@ -15,11 +15,11 @@ An API client implementation for the OpenCage Geocoder API.
 </div>
 
 <p align="center">
-    <a href="https://pkg.go.dev/github.com/alexliesenfeld/health">Documentation</a>
+    <a href="https://pkg.go.dev/github.com/alexliesenfeld/opencage">Documentation</a>
     ·
-    <a href="https://github.com/alexliesenfeld/health/issues">Report Bug</a>
+    <a href="https://github.com/alexliesenfeld/opencage/issues">Report Bug</a>
     ·
-    <a href="https://github.com/alexliesenfeld/health/issues">Request Feature</a>
+    <a href="https://github.com/alexliesenfeld/opencage/issues">Request Feature</a>
 </p>
 
 
