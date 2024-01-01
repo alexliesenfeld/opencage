@@ -36,7 +36,8 @@ func New(apiKey string, options ...Option) *Client {
 }
 
 // Geocode will call the remote API endpoint with the provided data. Please have a look at
-// https://opencagedata.com/api for more information.
+// https://opencagedata.com/api for more information. You can either pass  "<latitude>,<longitude>" as query
+// for reverse geocoding or an address for forward geocoding.
 func (c *Client) Geocode(ctx context.Context, query string, params *GeocodingParams) (Response, error) {
 	requestURL := c.createURL(query, params)
 
@@ -123,7 +124,7 @@ func (c *Client) createURL(query string, params *GeocodingParams) string {
 
 		// Only forward geocoding
 		if len(params.Bounds) > 0 {
-			q.Set("bounds", strings.Join(formatFloat32Slice(params.Bounds), ","))
+			q.Set("bounds", strings.Join(formatFloat64Slice(params.Bounds), ","))
 		}
 
 		if params.CountryCode != "" {
@@ -131,7 +132,7 @@ func (c *Client) createURL(query string, params *GeocodingParams) string {
 		}
 
 		if len(params.Proximity) > 0 {
-			q.Set("proximity", strings.Join(formatFloat32Slice(params.Proximity), ","))
+			q.Set("proximity", strings.Join(formatFloat64Slice(params.Proximity), ","))
 		}
 
 	}
