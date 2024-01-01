@@ -140,6 +140,11 @@ type ResultComponents struct {
 	State          string   `json:"state"`
 	StateCode      string   `json:"state_code"`
 	Suburb         string   `json:"suburb"`
+	Town           string   `json:"town"`
+	Village        string   `json:"village"`
+	Pedestrian     string   `json:"pedestrian"`
+	Neighbourhood  string   `json:"neighbourhood"`
+	Region         string   `json:"region"`
 }
 
 type Geometry struct {
