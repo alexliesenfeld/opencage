@@ -19,11 +19,16 @@ Use it as follows:
 ```go
 client := New("my-api-key")
 
-// Call the API with default parameters (also shows how to use forward geocoding API using a location)
-response, err := client.Geocode(context.Background(), "Berlin, Germany", nil)
+// Can be used to control timeouts (e.g., using context.WithDeadline), cancellation, etc.
+ctx := context.Background()
 
-// Or set your own API parameters (also shows how to use reverse geocoding API using coordingates)
-response, err := client.Geocode(context.Background(), "52.3877830 9.7334394", &GeocodingParams{
+// Call the API with default parameters.
+// Also shows how to use forward geocoding API using a location.
+response, err := client.Geocode(ctx, "Berlin, Germany", nil)
+
+// Or set your own API parameters.
+// Also shows how to use reverse geocoding API using latitude and longitude.
+response, err := client.Geocode(ctx, "52.3877830 9.7334394", &GeocodingParams{
     RoadInfo:  true,
     Proximity: []float32{1.0, -1.0},
     Language:  "de",
