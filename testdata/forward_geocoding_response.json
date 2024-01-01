@@ -1,0 +1,153 @@
+{
+  "documentation": "https://opencagedata.com/api",
+  "licenses": [
+    {
+      "name": "see attribution guide",
+      "url": "https://opencagedata.com/credits"
+    }
+  ],
+  "rate": {
+    "limit": 2500,
+    "remaining": 2497,
+    "reset": 1704067200
+  },
+  "results": [
+    {
+      "annotations": {
+        "DMS": {
+          "lat": "50° 24' 44.76312'' N",
+          "lng": "12° 9' 32.08824'' E"
+        },
+        "MGRS": "33UTR9815088346",
+        "Maidenhead": "JO60bj98bx",
+        "Mercator": {
+          "x": 1353524.044,
+          "y": 6485062.197
+        },
+        "NUTS": {
+          "NUTS0": {
+            "code": "DE"
+          },
+          "NUTS1": {
+            "code": "DED"
+          },
+          "NUTS2": {
+            "code": "DED4"
+          },
+          "NUTS3": {
+            "code": "DED44"
+          }
+        },
+        "OSM": {
+          "note_url": "https://www.openstreetmap.org/note/new#map=16/50.41243/12.15891&layers=N",
+          "url": "https://www.openstreetmap.org/?mlat=50.41243&mlon=12.15891#map=16/50.41243/12.15891"
+        },
+        "UN_M49": {
+          "regions": {
+            "DE": "276",
+            "EUROPE": "150",
+            "WESTERN_EUROPE": "155",
+            "WORLD": "001"
+          },
+          "statistical_groupings": [
+            "MEDC"
+          ]
+        },
+        "callingcode": 49,
+        "currency": {
+          "alternate_symbols": [],
+          "decimal_mark": ",",
+          "html_entity": "€",
+          "iso_code": "EUR",
+          "iso_numeric": "978",
+          "name": "Euro",
+          "smallest_denomination": 1,
+          "subunit": "Cent",
+          "subunit_to_unit": 100,
+          "symbol": "€",
+          "symbol_first": 0,
+          "thousands_separator": "."
+        },
+        "flag": "🇩🇪",
+        "geohash": "u2bwu9mcenygtkrkt0sv",
+        "qibla": 132.97,
+        "roadinfo": {
+          "drive_on": "right",
+          "speed_in": "km/h"
+        },
+        "sun": {
+          "rise": {
+            "apparent": 1704006720,
+            "astronomical": 1703999580,
+            "civil": 1704004440,
+            "nautical": 1704001920
+          },
+          "set": {
+            "apparent": 1704035760,
+            "astronomical": 1704042960,
+            "civil": 1704038100,
+            "nautical": 1704040560
+          }
+        },
+        "timezone": {
+          "name": "Europe/Berlin",
+          "now_in_dst": 0,
+          "offset_sec": 3600,
+          "offset_string": "+0100",
+          "short_name": "CET"
+        },
+        "what3words": {
+          "words": "incorrectly.gutless.circulating"
+        }
+      },
+      "bounds": {
+        "northeast": {
+          "lat": 50.5724342,
+          "lng": 12.3189134
+        },
+        "southwest": {
+          "lat": 50.2524342,
+          "lng": 11.9989134
+        }
+      },
+      "components": {
+        "ISO_3166-1_alpha-2": "DE",
+        "ISO_3166-1_alpha-3": "DEU",
+        "ISO_3166-2": [
+          "DE-SN"
+        ],
+        "_category": "postcode",
+        "_type": "postcode",
+        "continent": "Europe",
+        "country": "Germany",
+        "country_code": "de",
+        "county": "Vogtlandkreis",
+        "municipality": "Oelsnitz/Vogtland",
+        "political_union": "European Union",
+        "postcode": "08606",
+        "state": "Saxony",
+        "state_code": "SN"
+      },
+      "confidence": 4,
+      "formatted": "08606 Oelsnitz/Vogtland, Germany",
+      "geometry": {
+        "lat": 50.4124342,
+        "lng": 12.1589134
+      }
+    }
+  ],
+  "status": {
+    "code": 200,
+    "message": "OK"
+  },
+  "stay_informed": {
+    "blog": "https://blog.opencagedata.com",
+    "mastodon": "https://en.osm.town/@opencage"
+  },
+  "thanks": "For using an OpenCage API",
+  "timestamp": {
+    "created_http": "Sun, 31 Dec 2023 22:28:21 GMT",
+    "created_unix": 1704061701
+  },
+  "total_results": 1
+}
