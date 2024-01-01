@@ -11,6 +11,11 @@ type Rate struct {
 	Reset     int64 `json:"reset"`
 }
 
+type DMS struct {
+	Lat string `json:"lat"`
+	Lng string `json:"lng"`
+}
+
 type Coordinates struct {
 	Lat float64 `json:"lat"`
 	Lng float64 `json:"lng"`
@@ -96,22 +101,22 @@ type What3Words struct {
 }
 
 type Annotations struct {
-	DMS         Coordinates `json:"DMS"`
-	MGRS        string      `json:"MGRS"`
-	Maidenhead  string      `json:"Maidenhead"`
-	Mercator    Mercator    `json:"Mercator"`
-	NUTS        NUTS        `json:"NUTS"`
-	OSM         OSM         `json:"OSM"`
-	UNM49       UNM49       `json:"UN_M49"`
-	Callingcode int         `json:"callingcode"`
-	Currency    Currency    `json:"currency"`
-	Flag        string      `json:"flag"`
-	Geohash     string      `json:"geohash"`
-	Qibla       float64     `json:"qibla"`
-	Roadinfo    RoadInfo    `json:"roadinfo"`
-	Sun         Sun         `json:"sun"`
-	Timezone    Timezone    `json:"timezone"`
-	What3Words  What3Words  `json:"what3words"`
+	DMS         DMS        `json:"DMS"`
+	MGRS        string     `json:"MGRS"`
+	Maidenhead  string     `json:"Maidenhead"`
+	Mercator    Mercator   `json:"Mercator"`
+	NUTS        NUTS       `json:"NUTS"`
+	OSM         OSM        `json:"OSM"`
+	UNM49       UNM49      `json:"UN_M49"`
+	Callingcode int        `json:"callingcode"`
+	Currency    Currency   `json:"currency"`
+	Flag        string     `json:"flag"`
+	Geohash     string     `json:"geohash"`
+	Qibla       float64    `json:"qibla"`
+	Roadinfo    RoadInfo   `json:"roadinfo"`
+	Sun         Sun        `json:"sun"`
+	Timezone    Timezone   `json:"timezone"`
+	What3Words  What3Words `json:"what3words"`
 }
 
 type Bounds struct {
