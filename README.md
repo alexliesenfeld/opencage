@@ -34,6 +34,10 @@ response, err := client.Geocode(ctx, "52.3877830 9.7334394", &GeocodingParams{
     Language:  "de",
 })
 ```
+
+**Please refer to [this file](https://github.com/alexliesenfeld/opencage/blob/main/data.go) to see more about how the 
+response looks like and what parameters you are able to set.**
+
 ## Legal
 
 Please note that the OpenCage API is property of OpenCage GmbH. 
