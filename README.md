@@ -1,4 +1,29 @@
-# opencage
+<div align="center">
+    <h1>opencage</h1>
+</div>
+
+<p align="center">
+An API client implementation for the OpenCage Geocoder API.
+</p>
+<div align="center">
+
+[![Build](https://github.com/alexliesenfeld/opencage/actions/workflows/build.yml/badge.svg)](https://github.com/alexliesenfeld/health/actions/workflows/build.yml)
+[![codecov](https://codecov.io/gh/alexliesenfeld/opencage/branch/main/graph/badge.svg?token=V2mVh8RvYE)](https://codecov.io/gh/alexliesenfeld/health)
+[![Go Report Card](https://goreportcard.com/badge/github.com/alexliesenfeld/opencage)](https://goreportcard.com/report/github.com/alexliesenfeld/health)
+[![GolangCI](https://golangci.com/badges/github.com/alexliesenfeld/opencage.svg)](https://golangci.com/r/github.com/alexliesenfeld/health)
+[![FOSSA Status](https://app.fossa.com/api/projects/custom%2B26405%2Fgithub.com%2Falexliesenfeld%2Fopencage.svg?type=shield)](https://app.fossa.com/projects/custom%2B26405%2Fgithub.com%2Falexliesenfeld%2Fopencage?ref=badge_shield)
+
+</div>
+
+<p align="center">
+    <a href="https://pkg.go.dev/github.com/alexliesenfeld/health">Documentation</a>
+    ·
+    <a href="https://github.com/alexliesenfeld/health/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/alexliesenfeld/health/issues">Request Feature</a>
+</p>
+
+
 An API client implementation for the OpenCage Geocoder API. It provides a reverse (latitude/longitude to text) and 
 forward (text to latitude/longitude) geocoding API. Please visit https://opencagedata.com/api for 
 more information.
@@ -45,7 +70,9 @@ Head over to https://opencagedata.com for more information.
 
 ### License
 
-This software is free software: you can redistribute it and/or modify it under the terms of the MIT Public License.
+This library is free software: you can redistribute it and/or modify it under the terms of the MIT Public License.
 
 This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied
 warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the MIT Public License for more details.
+
+[![FOSSA Status](https://app.fossa.com/api/projects/custom%2B26405%2Fgithub.com%2Falexliesenfeld%2Fopencage.svg?type=large)](https://app.fossa.com/projects/custom%2B26405%2Fgithub.com%2Falexliesenfeld%2Fopencage?ref=badge_large)
