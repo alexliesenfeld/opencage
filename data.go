@@ -1,6 +1,6 @@
 package opencage
 
-type ReverseGeocodeResponse struct {
+type Response struct {
 	Documentation string `json:"documentation"`
 	Licenses      []struct {
 		Name string `json:"name"`

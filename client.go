@@ -37,32 +37,32 @@ func New(apiKey string, options ...Option) *Client {
 
 // Geocode will call the remote API endpoint with the provided data. Please have a look at
 // https://opencagedata.com/api for more information.
-func (c *Client) Geocode(ctx context.Context, query string, params *GeocodingParams) (ReverseGeocodeResponse, error) {
+func (c *Client) Geocode(ctx context.Context, query string, params *GeocodingParams) (Response, error) {
 	requestURL := c.createURL(query, params)
 
 	req, err := http.NewRequestWithContext(ctx, http.MethodGet, requestURL, nil)
 	if err != nil {
-		return ReverseGeocodeResponse{}, fmt.Errorf("cannot create HTTP request: %w", err)
+		return Response{}, fmt.Errorf("cannot create HTTP request: %w", err)
 	}
 
 	resp, err := c.httpClient.Do(req)
 	if err != nil {
-		return ReverseGeocodeResponse{}, fmt.Errorf("failed to send the request: %w", err)
+		return Response{}, fmt.Errorf("failed to send the request: %w", err)
 	}
 	defer resp.Body.Close()
 
 	if err := statusCodeToError(resp.StatusCode); err != nil {
-		return ReverseGeocodeResponse{}, err
+		return Response{}, err
 	}
 
-	var result ReverseGeocodeResponse
+	var result Response
 	err = json.NewDecoder(resp.Body).Decode(&result)
 	if err != nil {
-		return ReverseGeocodeResponse{}, fmt.Errorf("failed to parse the response: %w", err)
+		return Response{}, fmt.Errorf("failed to parse the response: %w", err)
 	}
 
 	if err := statusCodeToError(result.Status.Code); err != nil {
-		return ReverseGeocodeResponse{}, err
+		return Response{}, err
 	}
 
 	return result, nil
