@@ -78,7 +78,7 @@ func (c *Client) createURL(query string, params *GeocodingParams) string {
 	if params != nil {
 		// Common params
 		if params.Abbreviate {
-			q.Set("params", "1")
+			q.Set("abbrv", "1")
 		}
 
 		if params.AddressOnly {
@@ -98,7 +98,7 @@ func (c *Client) createURL(query string, params *GeocodingParams) string {
 		}
 
 		if params.Limit > 0 {
-			q.Set("limit", strconv.FormatInt(int64(params.Limit), 64))
+			q.Set("limit", strconv.FormatInt(int64(params.Limit), 32))
 		}
 
 		if params.NoAnnotations {
