@@ -1,6 +1,6 @@
 # opencage
 An API client implementation for the OpenCage Geocoder API. It provides a reverse (latitude/longitude to text) and 
-forward (text to latitude/longitude) geocoding API. Please visit https://opencagedata.com/api#quickstart for 
+forward (text to latitude/longitude) geocoding API. Please visit https://opencagedata.com/api for 
 more information.
 
 ## How to install
@@ -31,8 +31,8 @@ response, err := client.Geocode(context.Background(), "52.3877830 9.7334394", &G
 ```
 ## Legal
 
-Please note that the OpenCage API and is property of OpenCage GmbH. Head over to https://opencagedata.com for more
-information.
+Please note that the OpenCage API is property of OpenCage GmbH. 
+Head over to https://opencagedata.com for more information.
 
 ### License
 
